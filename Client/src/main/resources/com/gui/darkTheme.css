@@ -1,0 +1,88 @@
+.header{
+    -fx-background-color: #302e33;
+}
+
+.main{
+    -fx-background-color: #40424d;
+}
+
+.main .label{
+    -fx-text-fill: #fafafa;
+    -fx-font-family: Georgia;
+    -fx-font-size: 15;
+    -fx-alignment: center-left;
+ }
+
+.left{
+    -fx-background-color: #414354;
+}
+
+.button{
+    -fx-background-color:#302e33;
+    -fx-background-radius:20;
+    -fx-font-size:17;
+    -fx-text-fill: #fafafa;
+    -fx-font-family: Georgia;
+}
+
+.chart-legend {
+    -fx-background-color: #2c2c2c;
+    -fx-text-fill: #fafafa;
+}
+
+.chart-pie-label-line {
+    -fx-stroke: #fafafa;
+    -fx-fill: #fafafa;
+}
+
+.chart-pie-label {
+    -fx-fill: #fafafa;
+    -fx-font-size: 2em;
+}
+
+.text-field{
+    -fx-background-radius: 10;
+}
+
+.label{
+    -fx-text-fill: #fafafa;
+    -fx-font-family: Georgia;
+    -fx-font-size: 28;
+    -fx-alignment: center;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: rgba(2, 13, 35, 0.82);
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+}
+
+.table-view .column-header .label{
+    -fx-font-size: 15;
+}
+
+.table-view .table-cell{
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-font-size: 15;
+    -fx-font-family: Georgia;
+}
+
+ .table-row-cell:selected {
+    -fx-background-color: #1259a9;
+}
+
+.table-row-cell{
+    -fx-background-color: #222c42;
+}
