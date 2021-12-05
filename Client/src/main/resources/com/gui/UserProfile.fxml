@@ -4,6 +4,8 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
@@ -17,37 +19,37 @@
                <children>
                   <Button fx:id="profileButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Профиль">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
               <Button fx:id="carButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Автомобили">
                 <font>
-                  <Font name="Euclid Math One Bold" size="18.0" />
+                  <Font name="Segoe Print" size="18.0" />
                 </font>
               </Button>
                   <Button fx:id="manufacturerButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Производители">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="basketButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Корзина">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="themeButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Смена темы">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="languageButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Смена языка">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="closeButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Выйти">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                </children>
@@ -58,9 +60,9 @@
                   <Insets top="20.0" />
                </padding>
             </VBox>
-            <HBox layoutX="263.0" layoutY="14.0" prefHeight="382.0" prefWidth="345.0">
+            <HBox layoutX="221.0" layoutY="55.0" prefHeight="382.0" prefWidth="345.0">
                <children>
-                  <VBox prefHeight="446.0" prefWidth="144.0">
+                  <VBox prefHeight="382.0" prefWidth="104.0">
                      <children>
                         <Label fx:id="loginLabel" prefHeight="45.0" prefWidth="621.0" text="Логин" />
                         <Label fx:id="passwordLabel" prefHeight="45.0" prefWidth="621.0" text="Пароль" />
@@ -89,29 +91,34 @@
                   </VBox>
                </children>
             </HBox>
-            <VBox alignment="TOP_CENTER" layoutX="648.0" layoutY="84.0" prefHeight="241.0" prefWidth="188.0" spacing="40.0">
+            <VBox alignment="TOP_CENTER" layoutX="586.0" layoutY="296.0" prefHeight="200.0" prefWidth="226.0" spacing="40.0">
                <children>
                   <Button fx:id="changeProfileButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="189.0" text="Изменить профиль">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="addMoneyButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="193.0" text="Пополнить счет">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="faqButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="100.0" text="FAQ">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                </children>
             </VBox>
+            <ImageView fitHeight="177.0" fitWidth="179.0" layoutX="623.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../../images/user.png" />
+                </image>
+            </ImageView>
       </children></AnchorPane>
     <Label fx:id="headLabel" alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="35.0" prefWidth="822.0" text="Профиль пользователя" textAlignment="CENTER" textFill="WHITE">
       <font>
-        <Font name="Euclid Fraktur Bold" size="28.0" />
+        <Font name="Segoe Print" size="28.0" />
       </font>
     </Label>
   </children>

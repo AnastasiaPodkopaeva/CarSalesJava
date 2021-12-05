@@ -3,15 +3,15 @@ package com.SQLsupport.DBClass;
 import java.io.Serializable;
 
 public class Car implements Serializable {
-    private int id_product;
+    private int id_car;
     private String name;
     private String type;
     private int cost;
     private int count;
     private String nameManufacturer;
 
-    public Car(int id_product, String name, String type, int cost, int count, String nameManufacturer) {
-        this.id_product = id_product;
+    public Car(int id_car, String name, String type, int cost, int count, String nameManufacturer) {
+        this.id_car = id_car;
         this.name = name;
         this.type = type;
         this.cost = cost;
@@ -19,8 +19,8 @@ public class Car implements Serializable {
         this.nameManufacturer = nameManufacturer;
     }
 
-    public int getId_product() {
-        return id_product;
+    public int getId_car() {
+        return id_car;
     }
 
     public String getName() {

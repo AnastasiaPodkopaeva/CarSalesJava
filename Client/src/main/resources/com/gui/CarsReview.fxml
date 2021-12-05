@@ -59,20 +59,20 @@
                   <Insets top="20.0" />
                </padding>
             </VBox>
-            <TableView fx:id="reviewsTable" layoutX="181.0" layoutY="74.0" prefHeight="484.0" prefWidth="631.0">
+            <TableView fx:id="reviewsTable" layoutX="181.0" layoutY="22.0" prefHeight="418.0" prefWidth="631.0">
               <columns>
                 <TableColumn fx:id="userColumn" prefWidth="130.4000244140625" text="Пользователь" />
                 <TableColumn fx:id="reviewColumn" prefWidth="498.3999938964844" text="Отзыв" />
               </columns>
             </TableView>
-            <Button fx:id="reviewButton" layoutX="712.0" layoutY="18.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="100.0" text="Оставить">
+            <Button fx:id="reviewButton" layoutX="635.0" layoutY="461.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="154.0" text="Оставить">
                <font>
                   <Font name="Euclid Math One Bold" size="18.0" />
                </font>
             </Button>
-            <TextField fx:id="reviewField" layoutX="181.0" layoutY="24.0" prefHeight="23.0" prefWidth="519.0" promptText="Оставьте свой отзыв">
+            <TextField fx:id="reviewField" layoutX="181.0" layoutY="466.0" prefHeight="30.0" prefWidth="442.0" promptText="Оставьте свой отзыв">
                <font>
-                  <Font name="Georgia" size="12.0" />
+                  <Font name="Segoe Print" size="12.0" />
                </font>
             </TextField>
       </children></AnchorPane>

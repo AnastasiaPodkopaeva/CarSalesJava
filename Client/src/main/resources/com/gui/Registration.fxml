@@ -10,51 +10,61 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="850.0" style="-fx-background-color: #2C2C2C;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.controller.general.RegistrationController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="850.0" style="-fx-background-color:  #02144b;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.controller.general.RegistrationController">
   <children>
-    <AnchorPane layoutY="61.0" prefHeight="590.0" prefWidth="850.0" style="-fx-background-color: #3f3f3f;">
+    <AnchorPane layoutY="61.0" prefHeight="590.0" prefWidth="850.0" style="-fx-background-color: #182E59;">
       <children>
-        <Button fx:id="registrationButton" layoutX="342.0" layoutY="455.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="166.0" style="-fx-background-color: #2C2C2C; -fx-font-family: Georgia; -fx-background-radius: 20; -fx-font-size: 15; -fx-text-fill: #FAFAFA;" text="Зарегистрироваться">
+        <Button fx:id="registrationButton" layoutX="528.0" layoutY="455.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="196.0" style="-fx-background-color: #010e34; -fx-font-family: 'Segoe Print'; -fx-background-radius: 20; -fx-font-size: 15; -fx-text-fill: #F0F2DC;" text="Зарегистрироваться">
           <font>
-            <Font name="Georgia" size="18.0" />
+            <Font name="Segoe Print" size="18.0" />
           </font>
         </Button>
-            <VBox alignment="TOP_CENTER" layoutX="330.0" layoutY="83.0" prefHeight="330.0" prefWidth="189.0" spacing="25.0">
+            <VBox alignment="TOP_CENTER" layoutX="530.0" layoutY="83.0" prefHeight="330.0" prefWidth="189.0" spacing="25.0">
                <children>
               <TextField fx:id="loginField" prefHeight="26.0" prefWidth="231.0" promptText="Логин" style="-fx-background-radius: 10;">
                      <font>
-                        <Font name="Georgia" size="12.0" />
+                        <Font name="Segoe Print" size="12.0" />
                      </font></TextField>
               <PasswordField fx:id="passwordFiled" prefHeight="26.0" prefWidth="231.0" promptText="Пароль" style="-fx-background-radius: 10;">
                      <font>
-                        <Font name="Georgia" size="12.0" />
+                        <Font name="Segoe Print" size="12.0" />
                      </font></PasswordField>
                   <TextField fx:id="firstNameField" prefHeight="26.0" prefWidth="231.0" promptText="Имя" style="-fx-background-radius: 10;">
                      <font>
-                        <Font name="Georgia" size="12.0" />
+                        <Font name="Segoe Print" size="12.0" />
                      </font></TextField>
                   <TextField fx:id="lastNameFiled" prefHeight="26.0" prefWidth="231.0" promptText="Фамилия" style="-fx-background-radius: 10;">
                      <font>
-                        <Font name="Georgia" size="12.0" />
+                        <Font name="Segoe Print" size="12.0" />
                      </font></TextField>
               <TextField fx:id="addressField" prefHeight="26.0" prefWidth="231.0" promptText="Адрес" style="-fx-background-radius: 10;">
                      <font>
-                        <Font name="Georgia" size="12.0" />
+                        <Font name="Segoe Print" size="12.0" />
                      </font></TextField>
                   <TextField fx:id="phoneField" prefHeight="26.0" prefWidth="231.0" promptText="Телефон" style="-fx-background-radius: 10;">
                      <font>
-                        <Font name="Georgia" size="12.0" />
+                        <Font name="Segoe Print" size="12.0" />
                      </font></TextField>
                   <TextField fx:id="moneyField" prefHeight="26.0" prefWidth="231.0" promptText="Деньги" style="-fx-background-radius: 10;">
                      <font>
-                        <Font name="Georgia" size="12.0" />
+                        <Font name="Segoe Print" size="12.0" />
                      </font></TextField>
                </children>
             </VBox>
+          <ImageView fitHeight="520.0" fitWidth="573.0" layoutX="0.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                  <Image url="@../../images/carImage.png" />
+              </image>
+          </ImageView>
+          <Label fx:id="textLabel" alignment="CENTER" layoutX="110.0" layoutY="350.0" prefHeight="55.0" prefWidth="345.0" text="Think. Feel. Drive." textAlignment="CENTER" textFill="#F0F2DC">
+              <font>
+                  <Font name="Segoe Print" size="15.0" />
+              </font>
+          </Label>
       </children></AnchorPane>
-    <Label fx:id="registrationLabel" alignment="CENTER" layoutX="342.0" layoutY="14.0" prefHeight="34.0" prefWidth="166.0" text="Регистрация" textAlignment="CENTER" textFill="WHITE">
+    <Label fx:id="registrationLabel" alignment="CENTER" layoutX="342.0" layoutY="8.0" prefHeight="34.0" prefWidth="200.0" text="Регистрация" textAlignment="CENTER" textFill="#F0F2DC">
       <font>
-        <Font name="Georgia" size="28.0" />
+        <Font name="Segoe Print" size="28.0" />
       </font>
     </Label>
       <ImageView fx:id="backArrow" fitHeight="50.0" fitWidth="50.0" layoutX="5.0" layoutY="7.0" onMouseClicked="#switchToMainMenuScene" pickOnBounds="true" preserveRatio="true" rotate="-180.0">

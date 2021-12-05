@@ -59,7 +59,7 @@
                   <Insets top="20.0" />
                </padding>
             </VBox>
-            <TableView fx:id="carsTable" layoutX="181.0" layoutY="141.0" prefHeight="418.0" prefWidth="631.0">
+            <TableView fx:id="carsTable" layoutX="199.0" layoutY="96.0" prefHeight="418.0" prefWidth="631.0">
               <columns>
                 <TableColumn fx:id="idColumn" prefWidth="70.4000244140625" text="Номер" />
                 <TableColumn fx:id="nameColumn" prefWidth="145.59996032714844" text="Название" />
@@ -69,46 +69,46 @@
                   <TableColumn fx:id="manufacturerColumn" prefWidth="151.19989013671875" text="Производитель" />
               </columns>
             </TableView>
-            <TextField fx:id="searchField" layoutX="181.0" layoutY="26.0" prefHeight="23.0" prefWidth="155.0" promptText="Выберите автомобиль">
+            <Button fx:id="addToBasketButton" layoutX="199.0" layoutY="529.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="114.0" text="В корзину">
                <font>
-                  <Font name="Georgia" size="12.0" />
+                  <Font name="Euclid Math One Bold" size="18.0" />
+               </font>
+            </Button>
+            <TextField fx:id="searchField" layoutX="199.0" layoutY="15.0" prefHeight="23.0" prefWidth="155.0" promptText="Выберите автомобиль">
+               <font>
+                  <Font name="Segoe Print" size="12.0" />
                </font>
             </TextField>
-            <Button fx:id="searchButton" layoutX="306.0" layoutY="73.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="84.0" text="Поиск">
+            <Button fx:id="reviewButton" layoutX="325.0" layoutY="529.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="100.0" text="Отзывы">
                <font>
                   <Font name="Euclid Math One Bold" size="18.0" />
                </font>
             </Button>
-            <Button fx:id="filterButton" layoutX="712.0" layoutY="73.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="100.0" text="Фильтр">
+            <Button fx:id="searchButton" layoutX="199.0" layoutY="50.0" mnemonicParsing="false" prefHeight="11.0" prefWidth="90.0" text="Поиск">
                <font>
                   <Font name="Euclid Math One Bold" size="18.0" />
                </font>
             </Button>
-            <TextField fx:id="filterField" layoutX="648.0" layoutY="26.0" prefHeight="23.0" prefWidth="163.0" promptText="Выберите производителя">
+            <Button fx:id="addToComparisonButton" layoutX="439.0" layoutY="529.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="130.0" text="В сравнение">
                <font>
-                  <Font name="Georgia" size="12.0" />
+                  <Font name="Euclid Math One Bold" size="18.0" />
+               </font>
+            </Button>
+            <TextField fx:id="filterField" layoutX="666.0" layoutY="15.0" prefHeight="23.0" prefWidth="163.0" promptText="Выберите производителя">
+               <font>
+                  <Font name="Segoe Print" size="12.0" />
                </font>
             </TextField>
-            <Button fx:id="addToBasketButton" layoutX="181.0" layoutY="73.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="114.0" text="В корзину">
+            <Button fx:id="filterButton" layoutX="721.0" layoutY="50.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="100.0" text="Фильтр">
                <font>
                   <Font name="Euclid Math One Bold" size="18.0" />
                </font>
             </Button>
-            <Button fx:id="reviewButton" layoutX="349.0" layoutY="20.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="100.0" text="Отзывы">
-               <font>
-                  <Font name="Euclid Math One Bold" size="18.0" />
-               </font>
-            </Button>
-            <Label fx:id="messageLabel" alignment="CENTER" layoutX="457.0" layoutY="20.0" prefHeight="35.0" prefWidth="185.0" text="для сообщений" textAlignment="CENTER" textFill="WHITE">
+            <Label fx:id="messageLabel" alignment="CENTER" layoutX="411.0" layoutY="7.0" prefHeight="35.0" prefWidth="185.0" text="для сообщений" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Euclid Fraktur Bold" size="28.0" />
                </font>
             </Label>
-            <Button fx:id="addToComparisonButton" layoutX="399.0" layoutY="73.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="130.0" text="В сравнение">
-               <font>
-                  <Font name="Euclid Math One Bold" size="18.0" />
-               </font>
-            </Button>
       </children></AnchorPane>
     <Label fx:id="headLabel" alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="35.0" prefWidth="822.0" text="Автомобили" textAlignment="CENTER" textFill="WHITE">
       <font>

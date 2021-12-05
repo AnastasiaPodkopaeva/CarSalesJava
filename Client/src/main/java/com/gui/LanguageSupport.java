@@ -2,14 +2,14 @@ package com.gui;
 
 public class LanguageSupport {
     public static final String[] PROFILE_TEXT={"Профиль","Profile"};
-    public static final String[] BASKET_TEXT={"Корзина","Basket"};
+    public static final String[] BASKET_TEXT={"Избранное","Favourites"};
     public static final String[] CARS_TEXT={"Автомобили","Cars"};
     public static final String[] MANUFACTURERS_TEXT={"Производители","Manufacturers"};
     public static final String[] USERS_TEXT = {"Пользователи", "Users"};
     public static final String[] THEMES_TEXT={"Смена темы","Change theme"};
     public static final String[] LANGUAGE_TEXT={"Смена языка","Change language"};
-    public static final String[] EXIT_TEXT={"Выйти","Exit"};
-    public static final String[] WELCOME_TEXT={"Добро пожаловать","Welcome"};
+    public static final String[] EXIT_TEXT={"Выход","Exit"};
+    public static final String[] WELCOME_TEXT={"Приятной работы","Have a nice job"};
 
     public static final String[] LABEL_PIE_CHART_TEXT={
             "Диаграмма количества автомобилей от производителей",
@@ -31,9 +31,9 @@ public class LanguageSupport {
     public static final String[] ADD_MONEY_SUCCESSFUL_TEXT={"Счет пополнен","Account replenished"};
     public static final String[] ADD_MONEY_UNSUCCESSFUL_TEXT={"Проверьте данные","Check the data"};
 
-    public static final String[] LABEL_BASKET_TEXT={"Корзина","Basket"};
+    public static final String[] LABEL_BASKET_TEXT={"Избранное","Favorites"};
     public static final String[] BASKET_CURR_MONEY_TEXT={"Ваш текущий счет: ","Your current account: "};
-    public static final String[] BASKET_ALL_CAR_MONEY_TEXT={"Всего в корзине автомобилей на сумму: ","Total sum of all cars from basket: "};
+    public static final String[] BASKET_ALL_CAR_MONEY_TEXT={"Общая сумма избранного: ","Total sum: "};
     public static final String[] BASKET_SELECT_CAR_MONEY_TEXT={"Выбран автомобиль на сумму: ","Selected car for the amount: "};
     public static final String[] BASKET_CHOOSE_CAR_TEXT={"Выберите автомобиль","Choose the car"};
     public static final String[] BASKET_BUY_SELECTED_TEXT={"Купить выбранный","To buy selected"};
@@ -41,10 +41,10 @@ public class LanguageSupport {
     public static final String[] BASKET_NUMBER_TEXT={"Номер","Number"};
     public static final String[] BASKET_NAME_TEXT={"Название","Name"};
     public static final String[] BASKET_TYPE_TEXT={"Тип","Type"};
-    public static final String[] BASKET_COST_TEXT={"Цена($)","Cost($)"};
+    public static final String[] BASKET_COST_TEXT={"Цена","Cost"};
     public static final String[] BASKET_MANUF_TEXT={"Производитель","Manufacturer"};
     public static final String[] BASKET_PERCENT_TEXT={"Процент","Percent"};
-    public static final String[] BASKET_PRINT_TEXT={"Распечатать корзину","To print the basket"};
+    public static final String[] BASKET_PRINT_TEXT={"Распечатать избранное","To print the favourites"};
     public static final String[] BASKET_BUY_ALL_TEXT={"Купить все","To buy all"};
     public static final String[] BASKET_USE_REBATE_TEXT={"Использовать скидку","To use the rebate"};
     public static final String[] BASKET_SUCCESSFUL_ONE_TEXT={"Автомобиль куплен","Car are purchased"};
@@ -81,19 +81,19 @@ public class LanguageSupport {
     public static final String[] CARS_ADD_MANUFACTURER_TEXT={"Введите производителя", "Enter manufacturer"};
     public static final String[] CARS_ADD_COUNT_TEXT = {"Введите число","Enter the number"};
     public static final String[] CARS_ADD_TEXT = {"Добавить", "Add"};
-    public static final String[] CARS_ADD_TO_STOCK_TEXT={"Добавить на склад","Add to stock"};
-    public static final String[] CARS_DELETE_FROM_STOCK_TEXT={"Удалить со склада", "Delete from stock"};
+    public static final String[] CARS_ADD_TO_STOCK_TEXT={"Добавить в наличие","Add to stock"};
+    public static final String[] CARS_DELETE_FROM_STOCK_TEXT={"Удалить из наличия", "Delete from stock"};
     public static final String[] CARS_REVIEW_TEXT={"Отзывы","Reviews"};
     public static final String[] CARS_BASKET_TEXT={"В корзину","To basket"};
     public static final String[] CARS_SEARCH_TEXT={"Поиск","Search"};
     public static final String[] CARS_DELETE_TEXT={"Удалить", "Delete"};
-    public static final String[] CARS_COMPARISON_TEXT={"В сравнение","To comparison"};
+    public static final String[] CARS_COMPARISON_TEXT={"Сравнить","Compare"};
     public static final String[] CARS_CHOOSE_MANUF_TEXT={"Выберите производителя","Choose manufacturer"};
     public static final String[] CARS_FILTER_TEXT={"Фильтр","Filter"};
     public static final String[] CARS_NUMBER_TEXT={"Номер","Number"};
     public static final String[] CARS_NAME_TEXT={"Название","Name"};
     public static final String[] CARS_TYPE_TEXT={"Тип","Type"};
-    public static final String[] CARS_COST_TEXT={"Цена($)","Cost($)"};
+    public static final String[] CARS_COST_TEXT={"Цена","Cost"};
     public static final String[] CARS_COUNT_TEXT={"В наличии","In stock"};
     public static final String[] CARS_MANUF_TEXT={"Производитель","Manufacturer"};
     public static final String[] CARS_ADD_SUCCESSFUL_TEXT={"Автомобиль добавлен","Car is added"};
@@ -122,7 +122,7 @@ public class LanguageSupport {
     public static final String[] PROFILE_PHONE_TEXT={"Телефон","Phone"};
     public static final String[] PROFILE_CHANGE_TEXT={"Изменить профиль","Change profile"};
     public static final String[] PROFILE_ADD_TEXT={"Пополнить счет","Top up account"};
-    public static final String[] PROFILE_FAQ_TEXT={"ЧаВо","FAQ"};
+    public static final String[] PROFILE_FAQ_TEXT={"Вопросы","FAQ"};
     public static final String[] PROFILE_ADMIN_TEXT={"Администратор","Administrator"};
     public static final String[] PROFILE_USET_TEXT={"Покупатель","User"};
 

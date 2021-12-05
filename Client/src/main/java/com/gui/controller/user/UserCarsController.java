@@ -68,7 +68,7 @@ public class UserCarsController extends UserMenuController{
         dataFromServer = FXCollections.observableArrayList();
         selectableCarList = FXCollections.observableArrayList();
         comparisonList =FXCollections.observableArrayList();
-        idColumn.setCellValueFactory(new PropertyValueFactory<>("id_product"));
+        idColumn.setCellValueFactory(new PropertyValueFactory<>("id_car"));
         nameColumn.setCellValueFactory(new PropertyValueFactory<>("name"));
         typeColumn.setCellValueFactory(new PropertyValueFactory<>("type"));
         costColumn.setCellValueFactory(new PropertyValueFactory<>("cost"));
@@ -151,7 +151,7 @@ public class UserCarsController extends UserMenuController{
             if(cars !=null){
                 super.client.sendData("add to basket");
                 super.client.sendData(super.client.getUserProfile().getId()+" "+
-                        cars.elementAt(0).getId_product());
+                        cars.elementAt(0).getId_car());
 
                 if(super.client.receiveResult()){
                     messageLabel.setText(successfulAdd);

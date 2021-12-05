@@ -18,37 +18,37 @@
                <children>
                   <Button fx:id="profileButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Профиль">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
               <Button fx:id="carButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Автомобили">
                 <font>
-                  <Font name="Euclid Math One Bold" size="18.0" />
+                  <Font name="Segoe Print" size="18.0" />
                 </font>
               </Button>
                   <Button fx:id="manufacturerButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Производители">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="userButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Пользователи">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="themeButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Смена темы">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="languageButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Смена языка">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="closeButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Выйти">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                </children>
@@ -71,77 +71,77 @@
             </TableView>
             <TextField fx:id="searchField" layoutX="181.0" layoutY="26.0" prefHeight="23.0" prefWidth="155.0" promptText="Выберите автомобиль">
                <font>
-                  <Font name="Georgia" size="12.0" />
+                  <Font name="Segoe Print" size="12.0" />
                </font>
             </TextField>
             <Button fx:id="searchButton" layoutX="352.0" layoutY="20.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="84.0" text="Поиск">
                <font>
-                  <Font name="Euclid Math One Bold" size="18.0" />
+                  <Font name="Segoe Print" size="18.0" />
                </font>
             </Button>
-            <Button fx:id="addCountButton" layoutX="624.0" layoutY="374.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="186.0" text="Добавить на склад">
+            <Button fx:id="addCountButton" layoutX="181.0" layoutY="374.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="186.0" text="Добавить на склад">
                <font>
-                  <Font name="Euclid Math One Bold" size="18.0" />
+                  <Font name="Segoe Print" size="18.0" />
                </font>
             </Button>
-            <TextField fx:id="countField" layoutX="648.0" layoutY="333.0" prefHeight="23.0" prefWidth="163.0" promptText="Введите число">
+            <TextField fx:id="countField" layoutX="181.0" layoutY="329.0" prefHeight="23.0" prefWidth="163.0" promptText="Введите число">
                <font>
-                  <Font name="Georgia" size="12.0" />
+                  <Font name="Segoe Print" size="12.0" />
                </font>
             </TextField>
-            <Button fx:id="deleteCountButton" layoutX="624.0" layoutY="426.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="186.0" text="Удалить со склада">
+            <Button fx:id="deleteCountButton" layoutX="181.0" layoutY="439.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="186.0" text="Удалить со склада">
                <font>
-                  <Font name="Euclid Math One Bold" size="18.0" />
+                  <Font name="Segoe Print" size="18.0" />
                </font>
             </Button>
             <Label fx:id="messageLabel" alignment="CENTER" layoutX="627.0" layoutY="20.0" prefHeight="35.0" prefWidth="185.0" text="для сообщений" textAlignment="CENTER" textFill="WHITE">
                <font>
-                  <Font name="Euclid Fraktur Bold" size="28.0" />
+                  <Font name="Segoe Print" size="28.0" />
                </font>
             </Label>
-            <VBox layoutX="181.0" layoutY="333.0" prefHeight="200.0" prefWidth="155.0" spacing="15.0">
+            <VBox layoutX="656.0" layoutY="344.0" prefHeight="200.0" prefWidth="155.0" spacing="15.0">
                <children>
                   <TextField fx:id="nameField" prefHeight="23.0" prefWidth="155.0" promptText="Введите название">
                      <font>
-                        <Font name="Georgia" size="12.0" />
+                        <Font name="Segoe Print" size="12.0" />
                      </font>
                   </TextField>
                   <TextField fx:id="typeField" prefHeight="23.0" prefWidth="155.0" promptText="Введите тип двигателя">
                      <font>
-                        <Font name="Georgia" size="12.0" />
+                        <Font name="Segoe Print" size="12.0" />
                      </font>
                   </TextField>
                   <TextField fx:id="costField" prefHeight="23.0" prefWidth="155.0" promptText="Введите цену">
                      <font>
-                        <Font name="Georgia" size="12.0" />
+                        <Font name="Segoe Print" size="12.0" />
                      </font>
                   </TextField>
                   <TextField fx:id="numberField" prefHeight="23.0" prefWidth="155.0" promptText="Введите количество">
                      <font>
-                        <Font name="Georgia" size="12.0" />
+                        <Font name="Segoe Print" size="12.0" />
                      </font>
                   </TextField>
                   <TextField fx:id="manufField" prefHeight="23.0" prefWidth="155.0" promptText="Введите производителя">
                      <font>
-                        <Font name="Georgia" size="12.0" />
+                        <Font name="Segoe Print" size="12.0" />
                      </font>
                   </TextField>
                </children>
             </VBox>
-            <Button fx:id="createCarButton" layoutX="181.0" layoutY="523.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="155.0" text="Добавить">
+            <Button fx:id="createCarButton" layoutX="484.0" layoutY="519.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="155.0" text="Добавить">
                <font>
-                  <Font name="Euclid Math One Bold" size="18.0" />
+                  <Font name="Segoe Print" size="18.0" />
                </font>
             </Button>
             <Button fx:id="deleteButton" layoutX="445.0" layoutY="20.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="100.0" text="Удалить">
                <font>
-                  <Font name="Euclid Math One Bold" size="18.0" />
+                  <Font name="Segoe Print" size="18.0" />
                </font>
             </Button>
       </children></AnchorPane>
     <Label fx:id="headLabel" alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="35.0" prefWidth="822.0" text="Товары" textAlignment="CENTER" textFill="WHITE">
       <font>
-        <Font name="Euclid Fraktur Bold" size="28.0" />
+        <Font name="Segoe Print" size="28.0" />
       </font>
     </Label>
   </children>

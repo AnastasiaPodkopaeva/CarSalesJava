@@ -53,7 +53,7 @@ public class CarsReviewController extends UserMenuController {
     @Override
     protected void switchLanguage(int language_count){
         super.switchLanguage(language_count);
-        headLabel.setText(LABEL_REVIEW_TEXT[language_count]+": "+carName);
+        headLabel.setText(LABEL_REVIEW_TEXT[language_count]+" ");
         reviewButton.setText(REVIEW_BUTTON_TEXT[language_count]);
         reviewField.setPromptText(REVIEW_INPUT_TEXT[language_count]);
         userColumn.setText(REVIEW_USER_TEXT[language_count]);
@@ -104,7 +104,7 @@ public class CarsReviewController extends UserMenuController {
             return;
         client.sendData("add review");
         client.sendData(client.getUserProfile().getId()+"@@@"
-                +client.getSelectableCarForReview().getId_product()+"@@@"
+                +client.getSelectableCarForReview().getId_car()+"@@@"
                 +text_review);
     }
 

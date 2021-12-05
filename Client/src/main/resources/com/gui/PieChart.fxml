@@ -16,37 +16,37 @@
                <children>
                   <Button fx:id="profileButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Профиль">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
               <Button fx:id="carButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Автомобили">
                 <font>
-                  <Font name="Euclid Math One Bold" size="18.0" />
+                  <Font name="Segoe Print" size="18.0" />
                 </font>
               </Button>
                   <Button fx:id="manufacturerButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Производители">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="basketButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Корзина">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="themeButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Смена темы">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="languageButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Смена языка">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="closeButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Выйти">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                </children>
@@ -57,11 +57,11 @@
                   <Insets top="20.0" />
                </padding>
             </VBox>
-            <PieChart fx:id="myPieChart" layoutX="229.0" layoutY="96.0" />
+            <PieChart fx:id="myPieChart" layoutX="235.0" layoutY="86.0" />
       </children></AnchorPane>
     <Label fx:id="headLabel" alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="35.0" prefWidth="822.0" text="Диаграмма количества автомобилей от производителей" textAlignment="CENTER" textFill="WHITE">
       <font>
-        <Font name="Euclid Fraktur Bold" size="28.0" />
+        <Font name="Segoe Print" size="28.0" />
       </font>
     </Label>
   </children>

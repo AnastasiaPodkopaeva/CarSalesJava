@@ -23,7 +23,7 @@ public class Constants {
     public static final String MANUFACTURER_NUMBER="number_of_ratings";
 
     public static final String CAR_SCHEMA="car";
-    public static final String CAR_ID="id_product";
+    public static final String CAR_ID="id_car";
     public static final String CAR_NAME="name";
     public static final String CAR_TYPE="type";
     public static final String CAR_COST="cost";
@@ -33,13 +33,13 @@ public class Constants {
     public static final String REVIEW_SCHEMA="review";
     public static final String REVIEW_ID="id_review";
     public static final String REVIEW_USER="id_user";
-    public static final String REVIEW_CAR="id_product";
+    public static final String REVIEW_CAR="id_car";
     public static final String REVIEW_TEXT="review_text";
 
     public static final String PURCHASE_SCHEMA="purchase";
     public static final String PURCHASE_ID="id_purchase";
     public static final String PURCHASE_USER="id_user";
-    public static final String PURCHASE_CAR="id_product";
+    public static final String PURCHASE_CAR="id_car";
 
     public static final String FAQ_SCHEMA="faq";
     public static final String FAQ_QUESTION="question";

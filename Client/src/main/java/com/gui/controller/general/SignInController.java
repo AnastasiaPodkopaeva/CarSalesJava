@@ -19,6 +19,7 @@ import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import javax.swing.*;
 
 import static com.gui.Constants.*;
 
@@ -73,16 +74,20 @@ public class SignInController {
     }
 
     public void checkUser(MouseEvent event){
-        /*String login=loginTextField.getText();
-            String password=passwordFTextiled.getText();*/
+
+
+        String login=loginTextField.getText();
+        String password=passwordFTextiled.getText();
+
 /*
         String login="admin";
         String password="12345";
-*/
 
+*/
+        /*
         String login="midzuka";
         String password="kl123";
-
+        */
 
 
         client= OwnClient.getInstance();

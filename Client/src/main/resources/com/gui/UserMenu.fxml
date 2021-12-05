@@ -3,6 +3,8 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
@@ -11,41 +13,41 @@
   <children>
     <AnchorPane fx:id="mainPane" layoutX="-1.0" layoutY="58.0" prefHeight="591.0" prefWidth="850.0" AnchorPane.topAnchor="58.0">
       <children>
-            <VBox fx:id="leftPane" alignment="TOP_CENTER" prefHeight="591.0" prefWidth="170.0" spacing="25.0" AnchorPane.topAnchor="0.0">
+            <VBox fx:id="leftPane" alignment="TOP_CENTER" layoutX="271.0" layoutY="36.0" prefHeight="450.0" prefWidth="314.0" spacing="25.0" style="-fx-background-color: f;" AnchorPane.topAnchor="36.0">
                <children>
-                  <Button fx:id="profileButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Профиль">
+                  <Button fx:id="profileButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="153.0" text="Профиль">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font size="14.0" />
                      </font>
                   </Button>
-              <Button fx:id="carButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Автомобили">
+              <Button fx:id="carButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="208.0" text="Автомобили">
                 <font>
-                  <Font name="Euclid Math One Bold" size="18.0" />
+                  <Font size="14.0" />
                 </font>
               </Button>
-                  <Button fx:id="manufacturerButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Производители">
+                  <Button fx:id="manufacturerButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="254.0" text="Производители">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font size="14.0" />
                      </font>
                   </Button>
-                  <Button fx:id="basketButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Корзина">
+                  <Button fx:id="basketButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="302.0" text="Корзина">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font size="14.0" />
                      </font>
                   </Button>
-                  <Button fx:id="themeButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Смена темы">
+                  <Button fx:id="themeButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="254.0" text="Смена темы">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font size="14.0" />
                      </font>
                   </Button>
-                  <Button fx:id="languageButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Смена языка">
+                  <Button fx:id="languageButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="208.0" text="Смена языка">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font size="14.0" />
                      </font>
                   </Button>
-                  <Button fx:id="closeButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Выйти">
+                  <Button fx:id="closeButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="153.0" text="Выйти">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font size="14.0" />
                      </font>
                   </Button>
                </children>
@@ -56,6 +58,16 @@
                   <Insets top="20.0" />
                </padding>
             </VBox>
+          <ImageView fitHeight="153.0" fitWidth="302.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                  <Image url="@../../images/audi1.png" />
+              </image>
+          </ImageView>
+          <ImageView fitHeight="197.0" fitWidth="400.0" layoutX="548.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                  <Image url="@../../images/audi3.png" />
+              </image>
+          </ImageView>
       </children></AnchorPane>
     <Label fx:id="headLabel" alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="35.0" prefWidth="822.0" text="Добро пожаловать!" textAlignment="CENTER" textFill="WHITE">
       <font>

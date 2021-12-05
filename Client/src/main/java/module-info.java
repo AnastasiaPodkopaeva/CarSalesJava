@@ -4,6 +4,8 @@ module Client {
     requires javafx.graphics;
     requires java.sql;
     requires Server;
+    requires java.desktop;
+    requires junit;
 
     opens com.gui to javafx.fxml;
     exports com.gui;

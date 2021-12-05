@@ -18,37 +18,37 @@
                <children>
                   <Button fx:id="profileButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Профиль">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
               <Button fx:id="carButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Автомобили">
                 <font>
-                  <Font name="Euclid Math One Bold" size="18.0" />
+                  <Font name="Segoe Print" size="18.0" />
                 </font>
               </Button>
                   <Button fx:id="manufacturerButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Производители">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="basketButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Корзина">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="themeButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Смена темы">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="languageButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Смена языка">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="closeButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Выйти">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                </children>
@@ -59,7 +59,7 @@
                   <Insets top="20.0" />
                </padding>
             </VBox>
-            <TableView fx:id="purchaseTable" layoutX="181.0" layoutY="141.0" prefHeight="177.0" prefWidth="631.0">
+            <TableView fx:id="purchaseTable" layoutX="186.0" layoutY="207.0" prefHeight="177.0" prefWidth="631.0">
               <columns>
                 <TableColumn fx:id="idColumn" prefWidth="70.4000244140625" text="Номер" />
                 <TableColumn fx:id="nameColumn" prefWidth="168.79998779296875" text="Название" />
@@ -68,54 +68,54 @@
                   <TableColumn fx:id="manufacturerColumn" prefWidth="140.7999267578125" text="Производитель" />
               </columns>
             </TableView>
-            <TextField fx:id="searchField" layoutX="181.0" layoutY="26.0" prefHeight="23.0" prefWidth="146.0" promptText="Выберите автомобиль">
+            <TextField fx:id="searchField" layoutX="186.0" layoutY="397.0" prefHeight="23.0" prefWidth="146.0" promptText="Выберите автомобиль">
                <font>
-                  <Font name="Georgia" size="12.0" />
+                  <Font name="Segoe Print" size="12.0" />
                </font>
             </TextField>
-            <Button fx:id="buyOneButton" layoutX="181.0" layoutY="73.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="197.0" text="Купить выбранный">
+            <Button fx:id="buyOneButton" layoutX="181.0" layoutY="442.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="197.0" text="Купить выбранный">
                <font>
-                  <Font name="Euclid Math One Bold" size="18.0" />
+                  <Font name="Segoe Print" size="18.0" />
                </font>
             </Button>
-            <Button fx:id="buyAllButton" layoutX="657.0" layoutY="373.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="154.0" text="Купить всё">
+            <Button fx:id="buyAllButton" layoutX="387.0" layoutY="442.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="185.0" text="Купить всё">
                <font>
-                  <Font name="Euclid Math One Bold" size="18.0" />
+                  <Font name="Segoe Print" size="18.0" />
                </font>
             </Button>
-            <Button fx:id="deleteButton" layoutX="396.0" layoutY="73.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="107.0" text="Удалить">
+            <Button fx:id="deleteButton" layoutX="387.0" layoutY="496.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="185.0" text="Удалить">
                <font>
-                  <Font name="Euclid Math One Bold" size="18.0" />
+                  <Font name="Segoe Print" size="18.0" />
                </font>
             </Button>
-            <VBox layoutX="521.0" layoutY="12.0" prefHeight="122.0" prefWidth="314.0">
+            <VBox layoutX="464.0" layoutY="14.0" prefHeight="151.0" prefWidth="375.0">
                <children>
-                  <Label fx:id="currentAccountLabel" prefHeight="35.0" prefWidth="312.0" text="Ваш текущий счет: " />
-                  <Label fx:id="allCostLabel" prefHeight="35.0" prefWidth="313.0" text="Всего в корзине автомобилей на сумму:" />
-                  <Label fx:id="oneCostLabel" prefHeight="35.0" prefWidth="301.0" text="Выбран автомобиль на сумму: 0" />
+                  <Label fx:id="currentAccountLabel" prefHeight="35.0" prefWidth="376.0" text="Ваш текущий счет: " />
+                  <Label fx:id="allCostLabel" prefHeight="38.0" prefWidth="375.0" text="Общая сумма в корзине:" />
+                  <Label fx:id="oneCostLabel" prefHeight="35.0" prefWidth="402.0" text="Выбран автомобиль на сумму: 0" />
                </children>
             </VBox>
-            <Label fx:id="messageLabel" layoutX="351.0" layoutY="20.0" prefHeight="35.0" prefWidth="154.0" text="для сообщений" />
-            <Button fx:id="printButton" layoutX="600.0" layoutY="327.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="210.0" text="Распечатать корзину ">
+            <Label fx:id="messageLabel" layoutX="464.0" layoutY="156.0" prefHeight="35.0" prefWidth="154.0" text="для сообщений" />
+            <Button fx:id="printButton" layoutX="611.0" layoutY="390.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="210.0" text="Распечатать корзину ">
                <font>
-                  <Font name="Euclid Math One Bold" size="18.0" />
+                  <Font name="Segoe Print" size="18.0" />
                </font>
             </Button>
-            <TableView fx:id="rebateTable" layoutX="181.0" layoutY="373.0" prefHeight="178.0" prefWidth="247.0">
+            <TableView fx:id="rebateTable" layoutX="181.0" layoutY="14.0" prefHeight="178.0" prefWidth="247.0">
                <columns>
                   <TableColumn fx:id="rebateManufColumn" prefWidth="142.39996337890625" text="Производитель" />
                   <TableColumn fx:id="rebatePercentColumn" prefWidth="101.60003662109375" text="Процент" />
                </columns>
             </TableView>
-            <Button fx:id="useRebateButton" layoutX="437.0" layoutY="515.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="210.0" text="Использовать скидку">
+            <Button fx:id="useRebateButton" layoutX="181.0" layoutY="496.0" mnemonicParsing="false" prefHeight="13.0" prefWidth="198.0" text="Использовать скидку">
                <font>
-                  <Font name="Euclid Math One Bold" size="18.0" />
+                  <Font name="Segoe Print" size="18.0" />
                </font>
             </Button>
       </children></AnchorPane>
     <Label fx:id="headLabel" alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="35.0" prefWidth="822.0" text="Корзина" textAlignment="CENTER" textFill="WHITE">
       <font>
-        <Font name="Euclid Fraktur Bold" size="28.0" />
+        <Font name="Segoe Print" size="28.0" />
       </font>
     </Label>
   </children>

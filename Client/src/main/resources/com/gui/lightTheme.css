@@ -1,21 +1,21 @@
 .header{
-    -fx-background-color: #f3d4ea;
+    -fx-background-color: #D98997;
 }
 
 .main{
-    -fx-background-color: #efe6ec;
+    -fx-background-color: #F2C2CB;
 }
 
 .main .label{
-    -fx-text-fill: #60585e;;
-    -fx-font-family: Georgia;
+    -fx-text-fill: #BF5E70;
+    -fx-font-family: "Segoe Print";
     -fx-font-size: 15;
     -fx-alignment: center-left;
 }
 
 .chart-pie-label-line {
-    -fx-stroke: #333232;
-    -fx-fill: #333232;
+    -fx-stroke: #e7aaaa;
+    -fx-fill: #e7aaaa;
 }
 
 .chart-pie-label {
@@ -23,20 +23,20 @@
 }
 
 .left{
-    -fx-background-color: #e7cddd;
+    -fx-background-color: #e7aaaa;
 }
 
 .button{
-    -fx-background-color: #d9a5c8;
+    -fx-background-color: #BF5E70;
     -fx-background-radius:20;
     -fx-font-size:15;
-    -fx-text-fill: #2a2a2a;
-    -fx-font-family: Georgia;
+    -fx-text-fill: #F2F2F2;
+    -fx-font-family: "Segoe Print";
 
 }
 .label{
-    -fx-text-fill: #464545;
-    -fx-font-family: Georgia;
+    -fx-text-fill: #F2F2F2;
+    -fx-font-family: "Segoe Print";
     -fx-font-size: 28;
     -fx-alignment: center;
 }

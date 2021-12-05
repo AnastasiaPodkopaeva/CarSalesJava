@@ -86,7 +86,7 @@ public class AdminCarsController extends AdminMenuController{
 
         dataFromServer = FXCollections.observableArrayList();
         selectableCarList = FXCollections.observableArrayList();
-        idColumn.setCellValueFactory(new PropertyValueFactory<>("id_product"));
+        idColumn.setCellValueFactory(new PropertyValueFactory<>("id_car"));
         nameColumn.setCellValueFactory(new PropertyValueFactory<>("name"));
         typeColumn.setCellValueFactory(new PropertyValueFactory<>("type"));
         costColumn.setCellValueFactory(new PropertyValueFactory<>("cost"));
@@ -169,7 +169,7 @@ public class AdminCarsController extends AdminMenuController{
         if (car ==null)
             return;
         int newCount=value * Integer.parseInt(countField.getText());
-        int id= car.getId_product();
+        int id= car.getId_car();
         client.sendData("edit car count");
         client.sendData(id+" "+newCount);
 
@@ -178,12 +178,12 @@ public class AdminCarsController extends AdminMenuController{
         }
     }
 
-    private void deleteOneCar() {
+    public void deleteOneCar() {
         Car car = selectableCarList.get(0);
         if (car ==null)
             return;
         client.sendData("delete one car");
-        int id= car.getId_product();
+        int id= car.getId_car();
         client.sendData(Integer.toString(id));
 
         if(client.receiveResult()){

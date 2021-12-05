@@ -18,37 +18,37 @@
                <children>
                   <Button fx:id="profileButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Профиль">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
               <Button fx:id="carButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Автомобили">
                 <font>
-                  <Font name="Euclid Math One Bold" size="18.0" />
+                  <Font name="Segoe Print" size="18.0" />
                 </font>
               </Button>
                   <Button fx:id="manufacturerButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Производители">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="userButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Пользователи">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="themeButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Смена темы">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="languageButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Смена языка">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                   <Button fx:id="closeButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Выйти">
                      <font>
-                        <Font name="Euclid Math One Bold" size="18.0" />
+                        <Font name="Segoe Print" size="18.0" />
                      </font>
                   </Button>
                </children>
@@ -59,7 +59,7 @@
                   <Insets top="20.0" />
                </padding>
             </VBox>
-            <TableView fx:id="manufacturerTable" layoutX="182.0" layoutY="19.0" prefHeight="337.0" prefWidth="628.0">
+            <TableView fx:id="manufacturerTable" layoutX="170.0" layoutY="163.0" prefHeight="337.0" prefWidth="628.0">
               <columns>
                 <TableColumn fx:id="idColumn" prefWidth="73.60005187988281" text="Номер" />
                 <TableColumn fx:id="nameColumn" prefWidth="138.4000244140625" text="Название" />
@@ -68,25 +68,25 @@
                   <TableColumn fx:id="ratingColumn" minWidth="0.0" prefWidth="154.39999999999998" text="Рейтинг" />
               </columns>
             </TableView>
-            <Button fx:id="addManufButton" layoutX="388.0" layoutY="421.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="246.0" text="Добавить производителя">
+            <TextField fx:id="ratingField" layoutX="596.0" layoutY="35.0" prefHeight="26.0" prefWidth="63.0" promptText="Рейтинг" />
+            <TextField fx:id="emailField" layoutX="472.0" layoutY="35.0" prefHeight="26.0" prefWidth="90.0" promptText="Почта" />
+            <TextField fx:id="countField" layoutX="689.0" layoutY="35.0" prefHeight="26.0" prefWidth="115.0" promptText="Кол-во оценок" />
+            <TextField fx:id="nameField" layoutX="177.0" layoutY="35.0" prefHeight="26.0" prefWidth="142.0" promptText="Название" />
+            <TextField fx:id="contryField" layoutX="348.0" layoutY="35.0" prefHeight="26.0" prefWidth="90.0" promptText="Страна" />
+            <Button fx:id="addManufButton" layoutX="177.0" layoutY="88.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="246.0" text="Добавить производителя">
                <font>
-                  <Font name="Euclid Math One Bold" size="18.0" />
+                  <Font name="Segoe Print" size="18.0" />
                </font>
             </Button>
-            <Button fx:id="deleteManufButton" layoutX="388.0" layoutY="471.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="246.0" text="Удалить производителя">
+            <Button fx:id="deleteManufButton" layoutX="548.0" layoutY="523.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="246.0" text="Удалить производителя">
                <font>
-                  <Font name="Euclid Math One Bold" size="18.0" />
+                  <Font name="Segoe Print" size="18.0" />
                </font>
             </Button>
-            <TextField fx:id="nameField" layoutX="182.0" layoutY="377.0" prefHeight="26.0" prefWidth="142.0" promptText="Название" />
-            <TextField fx:id="contryField" layoutX="343.0" layoutY="377.0" prefHeight="26.0" prefWidth="90.0" promptText="Страна" />
-            <TextField fx:id="ratingField" layoutX="575.0" layoutY="377.0" prefHeight="26.0" prefWidth="63.0" promptText="Рейтинг" />
-            <TextField fx:id="emailField" layoutX="461.0" layoutY="377.0" prefHeight="26.0" prefWidth="90.0" promptText="Почта" />
-            <TextField fx:id="countField" layoutX="657.0" layoutY="377.0" prefHeight="26.0" prefWidth="115.0" promptText="Кол-во оценок" />
       </children></AnchorPane>
     <Label fx:id="headLabel" alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="35.0" prefWidth="822.0" text="Производители" textAlignment="CENTER" textFill="WHITE">
       <font>
-        <Font name="Euclid Fraktur Bold" size="28.0" />
+        <Font name="Segoe Print" size="28.0" />
       </font>
     </Label>
   </children>

@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS `review`(
        REFERENCES user(id_user)
        ON DELETE CASCADE,
    FOREIGN KEY (`id_product`)
-       REFERENCES car(id_product)
+       REFERENCES car(id_car)
        ON DELETE CASCADE
 ) DEFAULT CHARSET=utf8;
 

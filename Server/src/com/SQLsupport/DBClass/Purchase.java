@@ -26,7 +26,7 @@ public class Purchase implements Serializable {
         }
     }
 
-    public void printConsole(){
+    public void print(){
         System.out.println("\nman="+manufacturer_name+"\ncost="+car_cost);
     }
 
